@@ -1,0 +1,10 @@
+C:\Users\Acer\source\repos\ImageProcessing_Activity\ImageProcessing_Activity\bin\Debug\ImageProcessing_Activity.exe.config
+C:\Users\Acer\source\repos\ImageProcessing_Activity\ImageProcessing_Activity\bin\Debug\ImageProcessing_Activity.exe
+C:\Users\Acer\source\repos\ImageProcessing_Activity\ImageProcessing_Activity\bin\Debug\ImageProcessing_Activity.pdb
+C:\Users\Acer\source\repos\ImageProcessing_Activity\ImageProcessing_Activity\obj\Debug\ImageProcessing_Activity.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\ImageProcessing_Activity\ImageProcessing_Activity\obj\Debug\ImageProcessing_Activity.Form1.resources
+C:\Users\Acer\source\repos\ImageProcessing_Activity\ImageProcessing_Activity\obj\Debug\ImageProcessing_Activity.Properties.Resources.resources
+C:\Users\Acer\source\repos\ImageProcessing_Activity\ImageProcessing_Activity\obj\Debug\ImageProcessing_Activity.csproj.GenerateResource.cache
+C:\Users\Acer\source\repos\ImageProcessing_Activity\ImageProcessing_Activity\obj\Debug\ImageProcessing_Activity.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\ImageProcessing_Activity\ImageProcessing_Activity\obj\Debug\ImageProcessing_Activity.exe
+C:\Users\Acer\source\repos\ImageProcessing_Activity\ImageProcessing_Activity\obj\Debug\ImageProcessing_Activity.pdb
