@@ -19,7 +19,7 @@ namespace ImageProcessing_Activity
     {
         Bitmap processed, loaded;
         Bitmap imageB, imageA, resultImage;
-
+        Device[] mgaDevice = DeviceManager.GetAllDevices();
         public Form1()
         {
             InitializeComponent();
@@ -289,9 +289,7 @@ namespace ImageProcessing_Activity
         }
 
         private void selectDeviceToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Device[] mgaDevice = DeviceManager.GetAllDevices();
-
+        { 
             if (mgaDevice.Length > 0)
             {
                 Device d = DeviceManager.GetDevice(0);
@@ -300,6 +298,11 @@ namespace ImageProcessing_Activity
 
         }
 
+        private void closeDeviceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Device d = DeviceManager.GetDevice(0);
+            d.Stop();
+        }
 
         private void subtract_Click(object sender, EventArgs e)
         {

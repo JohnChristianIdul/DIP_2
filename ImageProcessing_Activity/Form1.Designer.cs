@@ -53,6 +53,7 @@
             this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
             this.openFileDialog3 = new System.Windows.Forms.OpenFileDialog();
             this.loadimage = new System.Windows.Forms.Button();
+            this.closeDeviceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -91,7 +92,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.editToolStripMenuItem,
-            this.selectDeviceToolStripMenuItem});
+            this.selectDeviceToolStripMenuItem,
+            this.closeDeviceToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
@@ -255,6 +257,13 @@
             this.loadimage.UseVisualStyleBackColor = true;
             this.loadimage.Click += new System.EventHandler(this.loadimage_Click);
             // 
+            // closeDeviceToolStripMenuItem
+            // 
+            this.closeDeviceToolStripMenuItem.Name = "closeDeviceToolStripMenuItem";
+            this.closeDeviceToolStripMenuItem.Size = new System.Drawing.Size(108, 24);
+            this.closeDeviceToolStripMenuItem.Text = "Close Device";
+            this.closeDeviceToolStripMenuItem.Click += new System.EventHandler(this.closeDeviceToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -309,6 +318,7 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog3;
         private System.Windows.Forms.Button loadimage;
         private System.Windows.Forms.ToolStripMenuItem selectDeviceToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem closeDeviceToolStripMenuItem;
     }
 }
 
